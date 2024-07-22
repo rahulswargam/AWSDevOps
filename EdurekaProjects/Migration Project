@@ -1,0 +1,26 @@
+Project: Migrating On-Prem multi-service Application to AWS
+
+Problem Statement:
+
+Company ABC wants to make a move to AWS. They were looking for a professional cloud consultant who could migrate the company’s infrastructure to cloud. ABC is a image hosting platform. The user comes to the website, uploads images, and these images are then stored on the server. 
+
+ABC has everything connected to their MySQL Database which exists on the same machine as the other applications.
+
+The other applications include, a backend processing system and a front-end website.
+
+ABC found you via Linkedin for this job (Because you are edureka! Certified AWS
+Migration Expert)
+
+As the first stage of migration, you take help from the development team and do the following changes:
+
+	1. Containerize the backend processing system
+	2. The website now uploads data to AWS S3
+	3. Export the whole system into a VM OVA file
+
+For the second stage, you plan the following:
+
+	1. Migrate this VM to AWS EC2 to get a public IP address
+	2. Upload the front end to Elastic Beanstalk
+	3. Migrate MySQL DB to Amazon Aurora
+	4. Upload the backend system to AWS ECR and ECS
+	5. Transfer the existing data to the target AWS S3 bucket using Transfer Acceleration
